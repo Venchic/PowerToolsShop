@@ -1,0 +1,216 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+body {
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #f8f8f;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+    transition: .3s all ease;
+}
+  a:hover {
+    color: darkorchid;
+    text-decoration: underline; 
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+    background-image: -o-linear-gradient(left, #fff, #000, #fff);
+}
+
+.clear {
+    clear: both;
+}
+.container {
+    //width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1230px;
+/*    display: flex;
+    justify-content: space-between;
+    padding: 0 calc(50% - 590px);
+    //background: background;*/
+}
+/**
+* TopBar
+**/
+.topbar {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topbar-contacts {
+    width: 30%;
+    order: 1;
+    font-size: 0.75em;
+    font-weight: 300;
+    text-align: right;
+}
+.topbar-contacts a {
+    font-weight: 700;
+    font-size: 1.4375em;
+}
+.topbar-contacts a:hover {
+    text-decoration: none
+}
+.topbar-brand {
+    width: 30%;
+    font-weight: 700;
+    font-size: 2.125em;
+    text-align: center;
+    padding: 0;
+    line-height: 1.2;
+    color: black;
+    display: inline-block;
+    //margin-right: 1rem;
+    white-space: nowrap;
+    order: 2;
+}
+.topbar-brand a:hover {
+    text-decoration: none;
+}
+.topbar-brand span {
+    font-size: 0.4em;
+    font-weight: 500;
+    display: block;
+    color: rgba(0,0,0,0.2);
+
+}
+.topbar-worktime {
+    width: 30%;
+    order: 3;
+    line-height: 1;
+}
+.topbar-worktime span {
+    font-weight: 700;
+    font-size: 1.4375em;
+}
+.topbar-worktime p>span {
+    font-size: 0.75em;
+    font-weight: 300;
+    text-align: left;
+}
+/**
+* TopNav
+**/
+.topnav {
+    display: flex;
+    //position: relative;
+    margin: 0 auto;
+    align-items: center;
+}
+.topnav-nav {
+    list-style-type: none;
+    display: inline-flex;
+    
+    
+}
+.topnav-item {
+    //margin: 20px;
+}
+.topnav-link {
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+}
+.topnav-link:hover {
+    color: darkorchid;
+    text-decoration: none
+}
+/**
+* Main
+**/
+main {
+    //padding: 0 15px;
+}
+.banner {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    margin: 15px auto;
+    text-transform: uppercase;
+    
+}
+.banner h2 {
+    font-size: 1.375em;
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}
+.banner h3 {
+    font-size: 0.75em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+/**
+* Footer
+**/
+footer {
+    font-size: 14px;
+    background-color: rgba(50,50,50,.9);
+    //height: 50px;
+    //display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+.links {
+    //width: 30%;
+    background-color: aqua;
+    //display: inline-flex;
+}
+.copy {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center
+}
+.copy a {
+    text-decoration: none;
+    color: snow;
+    
+}
+.copy span {
+    display: inline-flex;
+    color: snow;
+    flex-grow: 3;
+    justify-content:flex-end
+}
