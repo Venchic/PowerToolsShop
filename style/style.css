@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #f8f8f;
+    background-color: #f8f8f8;
 }
 
 a {
@@ -142,8 +142,6 @@ hr {
 .topnav-nav {
     list-style-type: none;
     display: inline-flex;
-
-
 }
 
 .topnav-item {
@@ -174,6 +172,7 @@ hr {
 **/
 main {
     //padding: 0 15px;
+    margin-bottom: 2em;
 }
 
 .banner {
@@ -236,7 +235,6 @@ main {
 .categories-item a:hover {
     text-decoration: none;
 }
-
 .page-title {
     display: block;
     text-align: center;
@@ -252,76 +250,90 @@ main {
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.5;
 }
+/**
+* Catalog
+**/
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    padding: 5px;
+}
 
+.catalog-item {
+    width: 150px;catalog
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.catalog-item img {
+    border-radius: 10px;
+}
+
+.catalog-item h3 {
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+}
+
+.catalog-item a:hover {
+    text-decoration: none;
+}
+/**
+* Product
+**/
+.product {
+    
+}
+.short-description-product {
+    
+}
+.characteristics-product {
+    
+}
+.description-product {
+    
+}
+.configuration-product {
+    
+}
+.instructions-product {
+    
+}
+.short-description-product, 
+.characteristics-product, 
+.description-product, 
+.configuration-product,
+.instructions-product h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
 /**
 * Contacts
 **/
-/*.contact-form {
-    margin: 30px auto;
-    display: flex;
-
-
-    align-items: stretch;
-    justify-content: center;
-}
-
-.feedback {
-    display: block;
-    order: 2;
-    padding: 3rem;
-    width: 50%;
-}
-
-.form-group {
-    margin: 0;
-    margin-bottom: 1rem;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    color: black;
-    height: 2.25rem;
-    background: snow;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    box-shadow: none;
-    border: 1px solid silver;
-    border-radius: 0.25rem;
-}
-
-textarea.form-control {
-    height: auto;
-    overflow: auto;
-    resize: vertical;
-}
-input.form-control[submit] {
-    text-align: center;
-}
-
-.map {
-    display: block;
-    order: 1;
-    padding: 0;
-    margin-right: 0;
-    width: 50%;
-}*/
 .form-contact {
     display: flex;
 }
+
 .feedback {
     order: 2;
     width: 50%;
     height: 600px;
-    border: 1px solid red;
     padding: 3rem;
 }
+
 .form-group {
     margin-bottom: 1rem;
-    
+
 }
+
 .form-group > input[type=text] {
     width: 100%;
     margin: 0 auto;
@@ -330,6 +342,7 @@ input.form-control[submit] {
     font-weight: 400;
     line-height: 1.5;
 }
+
 .form-group > textarea {
     font-family: Tahoma, Geneva, sans-serif;
     width: 100%;
@@ -341,22 +354,77 @@ input.form-control[submit] {
     overflow: auto;
     resize: vertical;
 }
+
 .form-group > input[type=submit] {
     padding: 0.375em 0.75em;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    width: 100%;
-    margin: 0 auto;
+    width: 30%;
+    border-radius: 10px;
+    justify-content: center;
+
 }
+
+.form-group > input[type=submit]:hover {
+    background-color: silver;
+
+}
+
 .map {
     order: 1;
     width: 50%;
     height: 600px;
-    border: 1px solid blue;
-    padding: 3rem
+    padding: 3rem;
 }
+
+.header-contacts {
+    width: 50%;
+    text-align: center;
+}
+
+.header-contacts > h3 {
+    margin: 2em 0;
+}
+
+.body-contacts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.body-contacts > h4 {
+    margin-bottom: 1em;
+}
+
+.address-contacts,
+.tel-contacts,
+.email-contacts,
+.site-contacts {
+    //display: flex;
+    padding: 3em 3em;
+    width: 30%;
+    align-items: center;
+    text-align: center
+}
+
+.address-contacts > h4 {
+    margin-bottom: 1em;
+}
+
+.tel-contacts > h4 {
+    margin-bottom: 1em;
+}
+
+.email-contacts > h4 {
+    margin-bottom: 1em;
+}
+
+.site-contacts > h4 {
+    margin-bottom: 1em;
+}
+
 /**
 * Footer
 **/
