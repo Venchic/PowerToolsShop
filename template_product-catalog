@@ -1,0 +1,180 @@
+/**
+* template product
+**/
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <title>Шуруповерт Bosch GSR 14.4 V-Li | PowerShopTools</title>
+    <link rel="stylesheet" href="../../style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="topbar">
+                <div class="topbar-brand">
+                    <a href="../../index.html">PowerShopTools</a>
+                    <span>Интернет-магазин</span>
+                </div>
+                <div class="topbar-contacts">
+                    <span><a href="tel:+7 000 000-00-00">+7 000 000-00-00</a></span>
+                    <p>г. Пятигорск, Бештаугорское шоссе, 45</p>
+                </div>
+
+                <div class="topbar-worktime">
+                    <span>Поддержка</span>
+                    <p class="time">
+                        <span>Пн-Вс: 08:00 - 20:00</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <nav class="topnav">
+            <ul class="topnav-nav">
+                <li class="topnav-item"><a class="topnav-link" href="../../index.html">Главная</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="../../catalog.html">Каталог</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="../../contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <hr>
+    <main>
+        <header class="page-title">
+            <h1>Шуруповерт Bosch GSR 14.4 V-Li</h1>
+            <hr>
+        </header>
+
+        <div class="container">
+            <section class="product">
+                    <h2>Описание товара</h2>
+                    <a href="../../img/bosch-gsr-14.4-v-li.jpg" target="_blank">
+                        <img src="../../img/bosch-gsr-14-smal.jpg" alt="Bosch GSR 14.4 V-Li">
+                    </a>
+                    <p class="short-desc-product">Шуруповерт&nbsp;&mdash; инструмент, без которого не&nbsp;обходится осуществление ремонта и&nbsp;строительных работ</p>
+                    <h2>Характеристики товара</h2>
+                    <ul>
+                        <li>Тип двигателя&nbsp;&mdash; щеточный</li>
+                        <li>Подсветка&nbsp;&mdash; есть</li>
+                        <li>Гнездо в&nbsp;корпусе для крепления бит&nbsp;&mdash; нет</li>
+                        <li>Кейс в&nbsp;комплекте&nbsp;&mdash; есть</li>
+                    </ul>
+                    <h2>Подробное описание товара</h2>
+                    <p>Шуруповерт&nbsp;&mdash; инструмент, без которого не&nbsp;обходится осуществление ремонта и&nbsp;строительных работ. Также устройства находят частое применение в&nbsp;быту. Модели заключены в&nbsp;компактные корпусы и&nbsp;снабжены держателями эргономичной формы. Несмотря на&nbsp;внушительный ассортимент шуруповертов, выбрать оптимальную для конкретной ситуации модель совсем не&nbsp;сложно. Перед покупкой важно решить, какой функционал для вас достаточен. Так, подавляющая часть моделей позволяет не&nbsp;только заниматься вкручиванием и&nbsp;извлечением крепежных элементов, но&nbsp;также и&nbsp;сверлить отверстия в&nbsp;поверхностях с&nbsp;разными физическими свойствами. То&nbsp;есть приборы выполняют также функцию дрели. Это очень удобно, так как устраняет необходимость приобретать еще один инструмент. Шуруповерты, оснащенные функцией удара, легко справятся с&nbsp;созданием углублений в&nbsp;наиболее твердых материалах. Разные конфигурации обладают неодинаковым количеством скоростей, поэтому в&nbsp;каждой ситуации становится возможным подобрать оптимальную интенсивность работы. Регулятор глубины закручивания еще больше облегчает эксплуатацию устройства. В&nbsp;роли источников питания выступают съемные и&nbsp;установленные в&nbsp;корпус аккумуляторы или&nbsp;же электрическая сеть. Некоторые приборы поставляются вместе с&nbsp;кейсами, отвечающими за&nbsp;безопасное и&nbsp;компактное хранение. В&nbsp;интернет-магазине PowerShopTools имеется большое многообразие инструментов, в&nbsp;том числе и&nbsp;шуруповертов. Оформить заказ легче и&nbsp;быстрее всего онлайн, не&nbsp;выходя из&nbsp;браузера.</p>
+                    <h2>Комплектация</h2>
+                    <ul>
+                        <li>Зарядное устройство AL&nbsp;1110&nbsp;CV</li>
+                        <li>Двусторонняя бита</li>
+                        <li>Документация</li>
+                        <li>Аккумулятор</li>
+                    </ul>
+                    <h2>Инструкция</h2>
+                    <a href="http://ftp.dns-shop.ru/Manuals/S/surupovert-bosch-easydrill-1200_instrukcia.pdf">Bosch GSR 14.4 V-Li</a>
+                <hr />
+            </section>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <a href="../../index.html" target="_blank">PowerToolsShop</a><span> &copy; 2020 Все права, наверное, защищены! </span>
+            </div>
+        </div>
+    </footer>
+</body></html>
+
+
+
+
+
+/**
+** template catalog
+*/
+
+
+<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аккумуляторный инструмент | PowerShopTools</title>
+    <link rel="stylesheet" href="../../style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="topbar">
+                <div class="topbar-brand">
+                    <a href="../../index.html">PowerShopTools</a>
+                    <span>Интернет-магазин</span>
+                </div>
+                <div class="topbar-contacts">
+                    <span><a href="tel:+7 000 000-00-00">+7 000 000-00-00</a></span>
+                    <p>г. Пятигорск, Бештаугорское шоссе, 45</p>
+                </div>
+
+                <div class="topbar-worktime">
+                    <span>Поддержка</span>
+                    <p class="time">
+                        <span>Пн-Вс: 08:00 - 20:00</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <nav class="topnav">
+
+            <ul class="topnav-nav">
+                <li class="topnav-item"><a class="topnav-link" href="../../index.html">Главная</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="../../catalog.html">Каталог</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="../../contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="clear"></div>
+    <hr>
+    <main>
+        <header class="page-title">
+            <h1>Аккумуляторный инструмент</h1>
+            <hr>
+        </header>
+
+        <div class="container">
+            <section class="catalog">
+                <div class="catalog-item">
+                    <a href="../batteries-tools/bosch.html">
+                        <img src="../../img/bosch-gsr-14-smal.jpg" alt="Шуруповерт Bosch">
+                        <h3>Шуруповерт Bosch</h3>
+                    </a>
+                </div>
+                <div class="catalog-item">
+                    <a href="../batteries-tools/dewalt.html">
+                        <img src="../../img/dewalt-dcd710c2-small.jpg" alt="Шуруповерт DeWalt">
+                        <h3>Шуруповерт DeWalt</h3>
+                    </a>
+                </div>
+                <div class="catalog-item">
+                    <a href="../batteries-tools/interskol.html">
+                        <img src="../../img/interskol-da-14-small.jpg" alt="Шуруповерт Интерскол">
+                        <h3>Шуруповерт Интерскол</h3>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <a href="../../index.html" target="_blank">PowerToolsShop</a><span> &copy; 2020 Все права, наверное, защищены! </span>
+            </div>
+        </div>
+    </footer>
+</body></html>	
