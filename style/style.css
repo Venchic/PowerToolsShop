@@ -235,6 +235,7 @@ main {
 .categories-item a:hover {
     text-decoration: none;
 }
+
 .page-title {
     display: block;
     text-align: center;
@@ -250,6 +251,7 @@ main {
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.5;
 }
+
 /**
 * Catalog
 **/
@@ -262,8 +264,8 @@ main {
 }
 
 .catalog-item {
-    width: 150px;catalog
-    height: 150px;
+    width: 150px;
+    catalog height: 150px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 5px auto;
@@ -284,51 +286,38 @@ main {
 .catalog-item a:hover {
     text-decoration: none;
 }
+
 /**
 * Product
 **/
 .product {
-    
-}
-/*.short-description-product {
-    
-}
-.characteristics-product {
-    
-}
-.description-product {
-    
-}
-.configuration-product {
-    
-}
-.instructions-product {
-    
-}
-.short-description-product, 
-.characteristics-product, 
-.description-product, 
-.configuration-product,
-.instructions-product*/ 
-.product {
     margin-top: 2em;
 }
+
 .product > a > img {
     border: 1px solid silver;
     border-radius: 10px;
 }
+
+.product > a > img:hover {
+    border: none;
+    margin: 1px;
+}
+
 .product > h2 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
+
 .short-desc-product {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
+
 .product > p {
     color: #484343;
     font-size: 16px;
@@ -336,6 +325,12 @@ main {
     line-height: 24px;
     text-align: left;
 }
+
+.product > p::first-letter {
+    font-family: fantasy;
+    font-size: 20px
+}
+
 .product > ul > li {
     color: #434848;
     font-size: 15px;
@@ -345,13 +340,25 @@ main {
     text-align: left;
     margin-left: 2em;
     list-style-type: none;
-    
-    
+
+
 }
+
 .product > ul > li::before {
     content: '\272F';
     margin-right: 1em;
 }
+
+.product table {
+    text-align: left;
+}
+
+.product table > tr > td {
+    border: 1px solid blue;
+    width: 20px;
+
+}
+
 /**
 * Contacts
 **/
@@ -378,6 +385,16 @@ main {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    text-transform: capitalize
+}
+
+.form-group > input[name=email]:focus {
+    color: lawngreen;
+    background-color: black;
+}
+
+.form-group > input[name=email]:focus::placeholder {
+    color: lawngreen;
 }
 
 .form-group > textarea {
@@ -390,6 +407,7 @@ main {
     line-height: 1.5;
     overflow: auto;
     resize: vertical;
+    text-transform: capitalize;
 }
 
 .form-group > input[type=submit] {
