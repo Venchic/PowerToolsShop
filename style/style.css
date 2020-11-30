@@ -1,15 +1,16 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
+    /*    font-family: sans-serif;
+    line-height: 1.15;*/
+    min-width: 300px;
 }
 
 body {
-    margin: 0;
+
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 1em;
     font-weight: 400;
@@ -46,12 +47,13 @@ hr {
 }
 
 .container {
-    //width: 100%;
+    width: 90%;
+    margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1230px;
+    /*margin-right: auto;
+margin-left: auto;*/
+    /*max-width: 960px;*/
     /*    display: flex;
     justify-content: space-between;
     padding: 0 calc(50% - 590px);
@@ -61,50 +63,32 @@ hr {
 /**
 * TopBar
 **/
-.topbar {
+.header {
     display: flex;
+    width: 100%;
     height: 200px;
+    flex-flow: row wrap;
     align-items: center;
-    flex-wrap: wrap;
+    align-content: center;
 }
 
-.topbar-contacts {
-    width: 30%;
+.brand {
+    flex: 0 1 auto;
+    align-self: flex-start;
     order: 1;
-    font-size: 0.75em;
-    font-weight: 300;
-    text-align: right;
-}
-
-.topbar-contacts a {
-    font-weight: 700;
-    font-size: 1.4375em;
-}
-
-.topbar-contacts a:hover {
-    text-decoration: none
-}
-
-.topbar-brand {
-    width: 30%;
     font-weight: 700;
     font-size: 2.125em;
     text-align: center;
     padding: 0;
     line-height: 1.2;
     color: black;
-    display: inline-block;
-    //margin-right: 1rem;
-    white-space: nowrap;
-    order: 2;
-    /*text-transform: uppercase;*/
 }
 
-.topbar-brand a:hover {
+.brand a:hover {
     text-decoration: none;
 }
 
-.topbar-brand span {
+.brand span {
     font-size: 0.4em;
     font-weight: 500;
     display: block;
@@ -112,7 +96,57 @@ hr {
 
 }
 
-.topbar-worktime {
+.brand:nth-child(1) {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.topnav:nth-child(2) {
+    flex: 0 1 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.topnav {
+    flex: 0 1 auto;
+    align-self: flex-end;
+    order: 2;
+    /*margin: 0 auto;*/
+    align-items: center;
+    //justify-content: flex-start;
+}
+
+.topnav-nav {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.topnav-item {
+    //margin: 20px;
+}
+
+.topnav-link {
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.topnav-link:hover {
+    color: darkorchid;
+    text-decoration: none
+}
+
+/*.topbar-worktime {
     width: 30%;
     order: 3;
     line-height: 1;
@@ -127,45 +161,10 @@ hr {
     font-size: 0.75em;
     font-weight: 300;
     text-align: left;
-}
+}*/
 
-/**
-* TopNav
-**/
-.topnav {
-    display: flex;
-    //position: relative;
-    margin: 0 auto;
-    align-items: center;
-}
 
-.topnav-nav {
-    list-style-type: none;
-    display: inline-flex;
-}
 
-.topnav-item {
-    //margin: 20px;
-}
-
-.topnav-link {
-    text-decoration: none;
-    font-size: 15px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 400;
-    color: #000;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    display: block;
-}
-
-.topnav-link:hover {
-    color: darkorchid;
-    text-decoration: none
-}
 
 /**
 * Main
@@ -494,17 +493,47 @@ main {
 /**
 * Footer
 **/
-footer {
+.footer {
     font-size: 14px;
+    margin-top: 1rem;
     background-color: rgba(50, 50, 50, .9);
-    //height: 50px;
-    //display: flex;
+
+    display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    margin: 0 auto;
+    align-content: center;
     width: 100%;
     justify-content: center;
+    height: auto;
 }
 
+.footer > a {
+    /* flex: 1 0 auto;*/
+    text-decoration: none;
+    color: snow;
+}
+
+.footer > span {
+    /* flex: 1 0 200px;*/
+    color: snow;
+}
+
+.footer > a:nth-child(1) {
+    flex: 1 1 auto;
+    // border: 1px solid black;
+    text-align: left;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.footer > span:nth-child(2) {
+    flex: 0 1 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 1rem 1rem 0;
+    //border: 1px solid red;
+}
+
+/*
 .links {
     //width: 30%;
     background-color: aqua;
@@ -520,14 +549,14 @@ footer {
 }
 
 .copy a {
-    text-decoration: none;
-    color: snow;
+
 
 }
 
 .copy span {
     display: inline-flex;
-    color: snow;
+
     flex-grow: 3;
     justify-content: flex-end
 }
+*/
