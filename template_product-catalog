@@ -178,3 +178,39 @@
         </div>
     </footer>
 </body></html>	
+
+
+
+
+
+
+/* NEW HEADER */
+
+
+    <header class="header">
+        <div class="brand">
+            <a href="index.html">PowerShopTools</a>
+            <span>Интернет-магазин</span>
+        </div>
+        <nav class="topnav">
+            <ul class="topnav-nav">
+                <li class="topnav-item"><a class="topnav-link" href="index.html">Главная</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="catalog.html">Каталог</a></li>
+                <li class="topnav-item"><a class="topnav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+/* NEW FOOTER */
+
+    <footer class="footer">
+        <a href="index.html" target="_blank">PowerToolsShop &copy; 2020</a><span> Все права, наверное, защищены! </span>
+    </footer>

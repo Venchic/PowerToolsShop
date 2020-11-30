@@ -9,29 +9,12 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="topbar">
-                <div class="topbar-brand">
-                    <a href="index.html">PowerShopTools</a>
-                    <span>Интернет-магазин</span>
-                </div>
-                <div class="topbar-contacts">
-                    <span><a href="tel:+7 000 000-00-00">+7 000 000-00-00</a></span>
-                    <p>г. Пятигорск, Бештаугорское шоссе, 45</p>
-                </div>
-
-                <div class="topbar-worktime">
-                    <span>Поддержка</span>
-                    <p class="time">
-                        <span>Пн-Вс: 08:00 - 20:00</span>
-                    </p>
-                </div>
-            </div>
+    <header class="header">
+        <div class="brand">
+            <a href="index.html">PowerShopTools</a>
+            <span>Интернет-магазин</span>
         </div>
-        <hr>
         <nav class="topnav">
-
             <ul class="topnav-nav">
                 <li class="topnav-item"><a class="topnav-link" href="index.html">Главная</a></li>
                 <li class="topnav-item"><a class="topnav-link" href="catalog.html">Каталог</a></li>
@@ -39,42 +22,37 @@
             </ul>
         </nav>
     </header>
-    <div class="clear"></div>
     <hr>
     <main>
-        <header class="page-title">
-            <h1>Напишите нам</h1>
-            <hr>
-        </header>
         <div class="container">
-            <section class="form-contact">
-                <div class="feedback">
-                    <form action="#">
-                        <div class="form-group">
-                            <input name="name" type="text" class="form-control" placeholder="Ваше имя" required>
-                        </div>
-                        <div class="form-group">
-                            <input name="email" type="text" class="form-control" placeholder="Ваш email" required>
-                        </div>
-                        <div class="form-group">
-                            <input name="tel" type="text" class="form-control" placeholder="Ваш номер телефона" required>
-                        </div>
-                        <div class="form-group">
-                            <input name="subject" type="text" class="form-control" placeholder="Тема сообщения" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" cols="30" rows="10" class="form-contol" placeholder="Ваше сообщение" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" class="form-control" value="Отправить">
-                        </div>
-                    </form>
-                </div>
-                <div class="map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8a80e34e425182bdcc6b58a49f40f07bf69c49f3d92f8b980ed65e076ba0fe73&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
-                </div>
-            </section>
-            <section class="contacts">
+            <header class="page-title">
+                <h1>Напишите нам</h1>
+                <hr>
+            </header>
+            <!--<section class="form-contact">-->
+            <div class="feedback">
+                <form action="#">
+                    <div class="form-group">
+                        <input name="name" type="text" class="form-control" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input name="email" type="text" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input name="tel" type="text" class="form-control" placeholder="Номер телефона" required>
+                    </div>
+                    <div class="form-group">
+                        <input name="subject" type="text" class="form-control" placeholder="Тема" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" cols="30" rows="10" class="form-contol" placeholder="Сообщение" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="form-control" value="Отправить">
+                    </div>
+                </form>
+            </div>
+            <!--<section class="contacts">
                 <div class="header-contacts">
                     <h2>Контактная информация</h2>
                     <hr>
@@ -98,17 +76,18 @@
                         <a href="index.html">PowerShopTools</a>
                     </div>
                 </div>
-            </section>
+            </section>-->
         </div>
+        <hr>
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8a80e34e425182bdcc6b58a49f40f07bf69c49f3d92f8b980ed65e076ba0fe73&amp;source=constructor" width="100%" height="374" frameborder="0"></iframe>
+        </div>
+        <!--</section>-->
+        <hr>
+
     </main>
-    <hr>
-    <footer>
-        <div class="container">
-            <!--<div class="links"></div>-->
-            <div class="copy">
-                <a href="index.html" target="_blank">PowerToolsShop</a><span> &copy; 2020 Все права, наверное, защищены! </span>
-            </div>
-            <!--<div class="links"></div>-->
-        </div>
+
+    <footer class="footer">
+        <a href="index.html" target="_blank">PowerToolsShop &copy; 2020</a><span> Все права, наверное, защищены! </span>
     </footer>
 </body></html>
