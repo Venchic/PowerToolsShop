@@ -350,11 +350,22 @@ main {
 }
 
 .product table {
-    text-align: left;
+    text-align: center;
+    margin: 0 0;
+    width: 100%
 }
 
-.product table > tr > td {
-    border: 1px solid blue;
+.product th {
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 20px;
+    border: 1px solid;
+}
+
+.product td {
+    width: 300px;
+    border: 1px solid;
     width: 20px;
 
 }
