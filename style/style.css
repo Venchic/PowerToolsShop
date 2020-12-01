@@ -219,7 +219,7 @@ main {
     margin: 0 auto;
     display: block;
     text-align: center;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -274,6 +274,42 @@ main {
     margin-top: 2em;
 }
 
+.buy-button {
+    text-align: center;
+}
+
+.buy-button > input[type=submit] {
+    margin: 10px auto 30px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: snow;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+}
+
+.buy-button > input[type=submit]:hover {
+    background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+    background-color: #468ccf;
+}
+
+.buy-button > input[type=submit]:active {
+    position: relative;
+    top: 1px;
+}
+
 .short-desc-product {
     display: flex;
     align-items: center;
@@ -301,7 +337,7 @@ main {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
-    width: 30%;
+    width: 40%;
 }
 
 .product > p {
@@ -316,10 +352,12 @@ main {
     font-family: fantasy;
     font-size: 20px
 }
+
 .short-desc-product > p::first-letter {
     font-family: fantasy;
     font-size: 20px
 }
+
 .product > ul > li {
     color: #434848;
     font-size: 15px;
@@ -444,50 +482,38 @@ main {
     /*padding: 3rem;*/
 }
 
-.header-contacts {
+/*.contacts {
+    display: flex;
+    flex-flow: row wrap;
+}*/
+
+.contact-header {
     width: 50%;
     text-align: center;
+    margin: 1rem auto 0;
 }
 
-.header-contacts > h3 {
+.contact-header > h3 {
     margin: 2em 0;
 }
 
-.body-contacts {
+.contact-body {
     display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
     justify-content: center;
+    margin: 0 auto 3em;
     margin-bottom: 3em;
 }
 
-.body-contacts > h4 {
-    margin-bottom: 1em;
+.contact-item {
+    padding: 1rem 1rem;
+    width: 200px;
+    text-align: center;
 }
 
-.address-contacts,
-.tel-contacts,
-.email-contacts,
-.site-contacts {
-    //display: flex;
-    padding: 3em 3em;
-    width: 30%;
-    align-items: center;
-    text-align: center
-}
-
-.address-contacts > h4 {
-    margin-bottom: 1em;
-}
-
-.tel-contacts > h4 {
-    margin-bottom: 1em;
-}
-
-.email-contacts > h4 {
-    margin-bottom: 1em;
-}
-
-.site-contacts > h4 {
-    margin-bottom: 1em;
+.contact-item > h4 {
+    margin-bottom: 1rem;
 }
 
 /**
@@ -497,7 +523,6 @@ main {
     font-size: 14px;
     margin-top: 1rem;
     background-color: rgba(50, 50, 50, .9);
-
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -532,31 +557,3 @@ main {
     padding: 1rem 1rem 1rem 0;
     //border: 1px solid red;
 }
-
-/*
-.links {
-    //width: 30%;
-    background-color: aqua;
-    //display: inline-flex;
-}
-
-.copy {
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    text-align: center;
-    align-items: center
-}
-
-.copy a {
-
-
-}
-
-.copy span {
-    display: inline-flex;
-
-    flex-grow: 3;
-    justify-content: flex-end
-}
-*/

@@ -202,11 +202,16 @@
     </header>
 
 
+/* SHORT DESC PRODUCT */
 
+                <div class="short-desc-product">
+                    <a href="../../img/bosch-gsr-14.4-v-li.jpg" target="_blank">
+                        <img src="../../img/bosch-gsr-14-smal.jpg" alt="Bosch GSR 14.4 V-Li">
+                    </a>
+                    <p>Шуруповерт&nbsp;&mdash; инструмент, без которого не&nbsp;обходится осуществление ремонта и&nbsp;строительных работ</p>
+                </div>
 
-
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 /* NEW FOOTER */
@@ -214,3 +219,10 @@
     <footer class="footer">
         <a href="index.html" target="_blank">PowerToolsShop &copy; 2020</a><span> Все права, наверное, защищены! </span>
     </footer>
+    
+    
+/* Button BUY */
+
+                <section class="buy-button">
+                    <input type="submit" value="Купить">
+                </section>
